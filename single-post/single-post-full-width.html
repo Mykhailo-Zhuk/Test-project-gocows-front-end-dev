@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./single-post.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Playfair+Display:wght@400;700&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Single post</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <!-- Header -->
+        <header class="header">
+          <div class="header-logo">
+            <p>minimø</p>
+          </div>
+          <!-- Top Navigation Menu -->
+          <div class="header-navigation">
+            <!-- Navigation links (hidden by default) -->
+            <ul id="navigation-list">
+              <li class="navigation-item">lifestyle</li>
+              <li class="navigation-item">photodiary</li>
+              <li class="navigation-item">music</li>
+              <li class="navigation-item">travel</li>
+            </ul>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="header-navigation_icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </header>
+        <!-- Section 1 with slider-->
+        <section class="section--1">
+          <!-- Slideshow container -->
+          <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <img src="/single-post/images/section-1-image.png" alt="image" style="width: 100%" />
+            </div>
+            <div class="mySlides fade">
+              <img src="/single-post/images/section-3-image.png" alt="image" style="width: 100%" />
+            </div>
+            <div class="mySlides fade">
+              <img src="/single-post/images/section-4-image.png" alt="image" style="width: 100%" />
+            </div>
+            <div class="mySlides fade">
+              <img src="/single-post/images/section-5-image.png" alt="image" style="width: 100%" />
+            </div>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+
+          <!-- The dots/circles -->
+          <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+          </div>
+        </section>
+        <!-- Section 2 -->
+        <section class="section--2">
+          <div class="section--2-wrapper">
+            <div class="section--2-label">photodiary</div>
+            <h1 class="section--2-header">The perfect weekend getaway</h1>
+            <div class="section--2-paragraph">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error
+                sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+                quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
+                quaerat voluptatem.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="section--3">
+          <div class="section--3-image">
+            <img src="/single-post/images/section-3-image.png" alt="image" />
+          </div>
+        </section>
+        <section class="section--4">
+          <div class="section--4-image">
+            <img src="/single-post/images/section-4-image.png" alt="image" />
+          </div>
+        </section>
+        <section class="section--5">
+          <div class="section--5-image">
+            <img src="/single-post/images/section-5-image.png" alt="image" />
+          </div>
+        </section>
+        <section class="section--6">
+          <div class="section--6-wrapper">
+            <div class="section--6-paragraph">
+              <p class="italic">
+                “Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste
+                natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
+                sunt explicabo.”
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error
+                sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+                quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
+                quaerat voluptatem..
+              </p>
+              <div class="section--5-social">
+                <ul class="s6-social_list">
+                  <li class="s6-social_item">
+                    <img src="/single-post/icons/Share.svg" alt="image" />
+                  </li>
+                  <li class="s6-social_item">
+                    <img src="/single-post/icons/facebook.svg" alt="image" />
+                  </li>
+                  <li class="s6-social_item">
+                    <img src="/single-post/icons/twitter.svg" alt="image" />
+                  </li>
+                  <li class="s6-social_item">
+                    <img src="/single-post/icons/g+.svg" alt="image" />
+                  </li>
+                  <li class="s6-social_item">
+                    <img src="/single-post/icons/tumblr.svg" alt="image" />
+                  </li>
+                  <li class="s6-social_item">
+                    <img src="/single-post/icons/pinterest.svg" alt="image" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Section --7-- -->
+        <section class="section--7">
+          <div class="section--7-wrapper">
+            <div class="section--7-label">you may also like</div>
+            <div class="section--7-card_list">
+              <div class="section--7-card">
+                <div class="s7-card_image">
+                  <img src="/single-post/images/section-6-image-2.png" alt="image" />
+                </div>
+                <div class="s7-card_text">
+                  <p>A day exploring the Alps</p>
+                </div>
+              </div>
+              <div class="section--7-card">
+                <div class="s7-card_image">
+                  <img src="/single-post/images/section-6-image-3.png" alt="image" />
+                </div>
+                <div class="s7-card_text">
+                  <p>American dream</p>
+                </div>
+              </div>
+              <div class="section--7-card">
+                <div class="s7-card_image">
+                  <img src="/single-post/images/section-6-image-1.png" alt="image" />
+                </div>
+                <div class="s7-card_text">
+                  <p>Cold winter days</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Section --8-- -->
+        <section class="section--8">
+          <div class="section--8-wrapper">
+            <div class="section--8-label">
+              <p>2 comments</p>
+            </div>
+            <div class="section--8-posts_wrapper">
+              <div class="section--8-posts_list">
+                <div class="s8-posts_item">
+                  <div class="s8-posts_icon">
+                    <img src="/single-post/images/section-7-comments-img-1.png" alt="comments" />
+                  </div>
+                  <div class="s8-posts_description">
+                    <div class="s8-posts_description__label">
+                      <p>John Doe</p>
+                    </div>
+                    <div class="s8-posts_description__paragpraph">
+                      <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                        veritatis et quasi architecto beatae vitae dicta sunt explicabo!
+                      </p>
+                    </div>
+                    <div class="s8-posts_description__reply">
+                      <p>reply</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="s8-posts_item">
+                  <div class="s8-posts_icon">
+                    <img src="/single-post/images/section-7-comment-img-2.png" alt="comments" />
+                  </div>
+                  <div class="s8-posts_description">
+                    <div class="s8-posts_description__label">
+                      <p>Jane Doe</p>
+                    </div>
+                    <div class="s8-posts_description__paragpraph">
+                      <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                        doloremque.
+                      </p>
+                    </div>
+                    <div class="s8-posts_description__reply">
+                      <p>reply</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="s8-posts_item">
+                  <div class="s8-posts_icon">
+                    <img src="/single-post/images/section-7-comments-img-1.png" alt="comments" />
+                  </div>
+                  <div class="s8-posts_description">
+                    <div class="s8-posts_description__input">
+                      <input type="text" placeholder="join the discussion" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section--8-social">
+              <ul class="section--8-social_list">
+                <li class="s8-social_item">
+                  <img src="/single-post/icons/Connected with.svg" alt="connected" />
+                </li>
+                <li class="s8-social_item">
+                  <img src="/single-post/icons/twitter.svg" alt="twitter" />
+                </li>
+                <li class="s8-social_item">
+                  <img src="/single-post/icons/facebook.svg" alt="facebook" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!-- Footer -->
+        <footer class="footer">
+          <div class="footer-privacy">
+            <ul class="f-privacy_list">
+              <li class="f-privacy_item">Terms and conditions</li>
+              <li class="f-privacy_item">Privacy</li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <ul class="f-social_list">
+              <li class="f-social_item">
+                <p>Follow</p>
+              </li>
+              <li class="f-social_item">
+                <img src="/single-post/icons/facebook.svg" alt="facebook" />
+              </li>
+              <li class="f-social_item">
+                <img src="/single-post/icons/twitter.svg" alt="twitter" />
+              </li>
+              <li class="f-social_item">
+                <img src="/single-post/icons/instagram.svg" alt="instagram" />
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+  <script defer src="/single-post/script.js"></script>
+</html>
